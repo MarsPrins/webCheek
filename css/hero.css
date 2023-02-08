@@ -1,0 +1,111 @@
+.hero {
+    background-color: var(--bg1);
+    position: relative;
+    min-height: 300px;
+}
+
+.hero h1 {
+    font-family: var(--titleFont);
+    font-weight: 900;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.hero p {
+    padding: 0 20px 20px 20px;
+}
+
+.heroImg {
+    width: 200px;
+    margin: auto;
+}
+
+.heroBorder {
+    width: 100vw;
+    height: 14px;
+    object-fit: fill;
+    position: absolute;
+    bottom: 0;
+}
+
+.elipse1 {
+    position: absolute;
+    top: -530px;
+    right: -350px;
+}
+
+
+
+
+@media only screen and (min-width: 650px) {
+  .hero h1 {
+    max-width: 50%;
+  }
+  .hero p {
+    max-width: 50%;
+
+  }
+  .heroImg {
+    position: absolute;
+    right: 10%;
+    bottom: 14px;
+  }
+  .hero {
+    min-height: 400px;
+  }
+}
+@media only screen and (min-width: 800px) {
+    .hero h1 {
+        font-size: 40px;
+        margin-left: 5%;
+    }
+    .hero p {
+        margin-left: 5%;
+    }
+    .heroImg {
+      width: 250px;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .hero h1 {
+        font-size: 50px;
+        margin-left: 10%;
+        max-width: 40%;
+    }
+    .hero p {
+        margin-left: 10%;
+        max-width: 40%;
+    }
+    .heroImg {
+      width: 300px;
+    }
+    .hero {
+        min-height: 400px;
+    }
+}
+@media only screen and (min-width: 1250px) {
+    .hero h1 {
+        font-size: 60px;
+        margin-left: 20%;
+        max-width: 30%;
+    }
+    .hero p {
+        margin-left: 20%;
+        max-width: 30%;
+    }
+    .heroImg {
+      width: 400px;
+    }
+    .hero {
+        min-height: 500px;
+    }
+    .elipse1 {
+        top: -500px;
+        right: -250px;
+    }
+}
+@media only screen and (min-width: 1400px) {
+    .heroImg {
+        margin-right: 100px;
+    }
+}

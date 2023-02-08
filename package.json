@@ -1,0 +1,26 @@
+{
+  "name": "webcheek",
+  "version": "1.0.0",
+  "description": "laat hier de beste goedkoopste websites maken",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarsPrins/webCheek.git"
+  },
+  "keywords": [
+    "webcheek",
+    "website",
+    "laten",
+    "maken",
+    "goedkoop"
+  ],
+  "author": "Mars Prins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarsPrins/webCheek/issues"
+  },
+  "homepage": "https://github.com/MarsPrins/webCheek#readme"
+}
